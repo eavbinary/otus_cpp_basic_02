@@ -48,7 +48,6 @@ int main(int argc, char **argv) {
     cin >> gamerName;
 
     int hiddenNumber = getRandomNumber(maxNumber);
-    std::cout << hiddenNumber << std::endl;
 
     int attempt = startGame(hiddenNumber);
 
